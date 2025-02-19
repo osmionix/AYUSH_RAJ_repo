@@ -1,5 +1,5 @@
-# TicTacToe_java
-This Java program implements a simple Tic-Tac-Toe game for two players. 
+# TicTacToe
+This program implements a simple Tic-Tac-Toe game for two players. 
 
 # **Rules**
 Players take turns selecting grid positions, with 'X' and 'O' markers. 
