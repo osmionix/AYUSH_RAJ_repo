@@ -1,7 +1,5 @@
-# TicTacToe
-This program implements a simple Tic-Tac-Toe game for two players. 
+This repository contains all the assignment assigned by NucleusTeq during training period.
 
-# **Rules**
-Players take turns selecting grid positions, with 'X' and 'O' markers. 
-The game checks for a winner after each move and announces the result. 
-If all positions are filled without a winner, it declares a tie.
+Name - Ayush Raj
+Phone - 9835270995
+Email - ayushraj.ar013@gmail.com
