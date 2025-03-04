@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICE DUEL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="gameTitle">DICE DUEL</h1>
+    <div class="game-container">
+        <div class="player" id="playerA">
+            <input type="text" id="playerAName" value="Player 1">
+            <img id="playerAImage" src="https://cdn-icons-png.flaticon.com/128/188/188987.png" alt="Player 1">
+            <p>Saved Score: <span id="playerASaved">0</span></p>
+            <p>Current Score: <span id="playerACurrent">0</span></p>
+        </div>
+
+        <div class="dice-container">
+            <img id="dicePic" src="https://cdn-icons-png.flaticon.com/128/17418/17418557.png" alt="Dice">
+            <button id="rollBtn">Roll</button>
+            <button id="saveBtn">Save</button>
+            <button id="resetBtn">Reset</button>
+            <h2 id="gameResult"></h2>
+        </div>
+
+        <div class="player" id="playerB">
+            <input type="text" id="playerBName" value="Player 2">
+            <img id="playerBImage" src="https://cdn-icons-png.flaticon.com/128/188/188995.png" alt="Player 2">
+            <p>Saved Score: <span id="playerBSaved">0</span></p>
+            <p>Current Score: <span id="playerBCurrent">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
