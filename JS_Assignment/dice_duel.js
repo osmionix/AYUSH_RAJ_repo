@@ -33,7 +33,7 @@ function saveScore() {
     playerScores[activePlayer].saved += playerScores[activePlayer].current;
     playerScores[activePlayer].current = 0;
 
-    if (playerScores[activePlayer].saved >= 20) {
+    if (playerScores[activePlayer].saved >= 100) {
         document.getElementById("gameResult").innerText = 
             `${document.getElementById(`player${activePlayer === 1 ? 'A' : 'B'}Name`).value} Wins!`;
         disableButtons();
