@@ -13,7 +13,7 @@ let questions = [];
 let timer;
 
 async function fetchQuestions() {
-    const url = `https://opentdb.com/api.php?amount=2&category=${category}&difficulty=${difficulty}&type=multiple`;
+    const url = `https://opentdb.com/api.php?amount=20&category=${category}&difficulty=${difficulty}&type=multiple`;
     const response = await fetch(url);
     const data = await response.json();
     questions = data.results;
