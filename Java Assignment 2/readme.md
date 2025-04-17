@@ -39,3 +39,11 @@ src/
 - PUT /api/employees/{id} - Update employee
 - DELETE /api/employees/{id} - Delete employee
 
+## Snippets
+![image](https://github.com/user-attachments/assets/d00ea827-737a-41c9-9482-d3658426459a)  
+![image](https://github.com/user-attachments/assets/1d89a2ee-9e76-4d84-8574-1fcce0c98824)  
+![image](https://github.com/user-attachments/assets/915fb152-ffc8-4408-930b-bb2a30c226e3)  
+![image](https://github.com/user-attachments/assets/55b61e7f-a8a0-4aab-a927-87315641c2f8)  
+
+
+
