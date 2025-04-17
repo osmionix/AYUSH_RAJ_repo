@@ -16,17 +16,17 @@ This is a simple HR Portal application built with Spring Boot for the backend an
 ## Application Structure
 src/  
 ├── main/  
-│   ├── java/  
-│   │   └── com/example/hrportal/  
-│   │       ├── config/  
-│   │       ├── controller/  
-│   │       ├── model/  
-│   │       ├── repository/  
-│   │       ├── service/  
-│   │       └── HrPortalApplication.java  
-│   └── resources/  
-│       ├── static/           # Frontend files (HTML, CSS, JS)  
-│       └──  application.properties  
+│  ├── java/  
+│  │    └── com/ayush/hr_portal/  
+│  │    ├── config/  
+│  │    ├── controller/  
+│  │    ├── model/  
+│  │    ├── repository/  
+│  │    ├── service/  
+│  │    └── HrPortalApplication.java  
+│  └── resources/  
+│    ├── static/           # Frontend files (HTML, CSS, JS)  
+│    └──  application.properties  
 
 ## API Endpoints
 **HR Authentication**  
