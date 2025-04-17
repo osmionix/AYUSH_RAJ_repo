@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h2 {
+    color: #333;
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    input, button {
+        width: 95%;
+    }
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+#logoutBtn {
+position: absolute;
+    position: absolute;
+        top: 30px;
+        right: 50px;
+        background-color: #dc3545;
+        color: white;
+        padding: 6px 12px;
+        font-size: 14px;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1000;
+}
+
+#logoutBtn:hover {
+    background-color: #c82333;
+}
